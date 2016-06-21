@@ -75,7 +75,7 @@
   Logger.LogLevel = LogLevel;
   Logger.OFF   = new LogLevel('OFF'  , ''       , 0);
   Logger.ERROR = new LogLevel('ERROR', '#FF0000', 100);
-  Logger.WARN  = new LogLevel('WARN' , '#e6ac00', 200);
+  Logger.WARN  = new LogLevel('WARN' , '#E6AC00', 200);
   Logger.INFO  = new LogLevel('INFO' , '#6699CC', 300);
   Logger.DEBUG = new LogLevel('DEBUG', '#669966', 400);
   Logger.TRACE = new LogLevel('TRACE', '#000000', 500);
