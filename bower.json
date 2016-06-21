@@ -1,0 +1,24 @@
+{
+  "name": "klogger",
+  "description": "",
+  "main": "klogger.js",
+  "authors": [
+    "Matthieu BOHEAS <kelgors@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "logger",
+    "js",
+    "browser",
+    "node"
+  ],
+  "homepage": "https://github.com/Kelgors/KLogger",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

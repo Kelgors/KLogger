@@ -1,0 +1,13 @@
+{
+  "name": "klogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "klogger.js",
+  "author": "Matthieu BOHEAS <kelgors@gmail.com>",
+  "homepage": "https://github.com/Kelgors/KLogger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelgors/KLogger.git"
+  }
+}
