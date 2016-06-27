@@ -1,4 +1,4 @@
-(function (root, exportName) {
+(function (exportName) {
   var arrProt = Array.prototype;
 
   function LogLevel(name, color, level) {
@@ -100,7 +100,7 @@
   } else if (typeof module !== 'undefined' && module.exports) {
     module.exports = Logger;
   } else {
-    root[exportName] = Logger;
+    this[exportName] = Logger;
   }
 
-})(this, 'KLogger');
+})('KLogger');
