@@ -96,7 +96,7 @@
   Logger.prototype = Object.create(Object.prototype, LoggerProtoDescriptor);
 
   if (typeof define === 'function' && define.amd) {
-    define(Logger);
+    define(function () { return Logger });
   } else if (typeof module !== 'undefined' && module.exports) {
     module.exports = Logger;
   } else {
